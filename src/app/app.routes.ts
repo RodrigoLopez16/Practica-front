@@ -13,6 +13,7 @@ import { ProfileComponent } from './pages/profile/profile.component';
 import { GamesComponent } from './pages/games/games.component';
 import { OrdersComponent } from './pages/orders/orders.component';
 import { PreferenceListPageComponent } from './pages/preferenceList/preference-list.component';
+import { JavisPageComponent } from './components/javis-page/javis-page.component';
 
 export const routes: Routes = [
   {
@@ -119,6 +120,19 @@ export const routes: Routes = [
             IRoleType.user,
           ],
           name: 'preference list',
+          showInSidebar: true
+        }
+      },
+      {
+        path: 'javi-page',
+        component: JavisPageComponent,
+        data: {
+          authorities: [
+            IRoleType.admin,
+            IRoleType.superAdmin,
+            IRoleType.user,
+          ],
+          name: 'javi page',
           showInSidebar: true
         }
       }
