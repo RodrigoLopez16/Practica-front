@@ -1,0 +1,49 @@
+.javier-container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 700px;
+  margin: 80px auto;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+
+  h1 {
+    font-size: 48px;
+    color: #0d5254;
+    margin-bottom: 10px;
+  }
+
+  .description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+
+  .extra-info {
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+    h2 {
+      font-size: 24px;
+      color: #0d5254;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        background-color: #f8f9fa;
+        margin: 5px auto;
+        padding: 10px 20px;
+        border-radius: 8px;
+        max-width: 300px;
+        color: #333;
+      }
+    }
+  }
+
+  
+}
